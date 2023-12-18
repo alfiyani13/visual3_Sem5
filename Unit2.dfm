@@ -48,6 +48,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'Transaksi'
     TabOrder = 0
+    OnClick = btn1Click
   end
   object btn2: TButton
     Left = 76

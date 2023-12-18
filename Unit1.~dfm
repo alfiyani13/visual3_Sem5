@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 255
-  Top = 181
-  Width = 870
+  Left = 527
+  Top = 145
+  Width = 457
   Height = 450
   Caption = 'Form1'
   Color = clScrollBar
@@ -77,7 +77,6 @@ object Form1: TForm1
   end
   object zqry: TZQuery
     Connection = con
-    Active = True
     SQL.Strings = (
       'select * from user')
     Params = <>
@@ -93,7 +92,6 @@ object Form1: TForm1
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
     Database = 'pembayaran_sekolah'

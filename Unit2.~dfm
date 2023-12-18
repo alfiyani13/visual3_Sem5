@@ -1,7 +1,7 @@
 object Form2: TForm2
-  Left = 301
-  Top = 174
-  Width = 870
+  Left = 241
+  Top = 142
+  Width = 283
   Height = 450
   Caption = 'Form2'
   Color = clBtnFace
@@ -14,78 +14,64 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
-    Left = 96
-    Top = 48
-    Width = 60
+    Left = 16
+    Top = 40
+    Width = 42
     Height = 13
-    Caption = 'no_transaksi'
+    Caption = 'transaksi'
   end
   object lbl2: TLabel
-    Left = 192
-    Top = 48
-    Width = 35
+    Left = 16
+    Top = 80
+    Width = 23
     Height = 13
-    Caption = 'tanggal'
+    Caption = 'struk'
   end
   object lbl3: TLabel
-    Left = 280
-    Top = 48
-    Width = 41
+    Left = 16
+    Top = 160
+    Width = 26
     Height = 13
-    Caption = 'no induk'
+    Caption = 'siswa'
   end
-  object lbl4: TLabel
-    Left = 252
+  object lbl5: TLabel
+    Left = 16
     Top = 124
     Width = 49
     Height = 13
     Caption = 'jenis biaya'
   end
-  object lbl5: TLabel
-    Left = 136
-    Top = 124
-    Width = 53
-    Height = 13
-    Caption = 'Kode biaya'
-  end
   object btn1: TButton
     Left = 80
-    Top = 76
-    Width = 75
+    Top = 36
+    Width = 113
     Height = 25
-    Caption = 'No Transaksi'
+    Caption = 'Transaksi'
     TabOrder = 0
   end
   object btn2: TButton
-    Left = 172
+    Left = 76
     Top = 76
-    Width = 75
+    Width = 117
     Height = 25
-    Caption = 'tanggal'
+    Caption = 'struk'
     TabOrder = 1
+    OnClick = btn2Click
   end
   object btn3: TButton
-    Left = 272
-    Top = 76
-    Width = 125
+    Left = 72
+    Top = 156
+    Width = 121
     Height = 25
-    Caption = 'No induk'
+    Caption = 'siswa'
     TabOrder = 2
   end
   object btn4: TButton
-    Left = 124
-    Top = 148
-    Width = 75
-    Height = 25
-    Caption = 'kode biaya'
-    TabOrder = 3
-  end
-  object btn5: TButton
-    Left = 244
-    Top = 148
-    Width = 75
+    Left = 76
+    Top = 116
+    Width = 117
     Height = 25
     Caption = 'jenis biaya'
-    TabOrder = 4
+    TabOrder = 3
   end
 end
