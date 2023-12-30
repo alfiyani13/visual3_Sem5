@@ -120,11 +120,11 @@ end;
 
 procedure TForm3.btn3Click(Sender: TObject);
 begin
-if (edt1.Text= '')or (edt2.Text ='')or(edt3.Text= '')or(edt4.Text= '')or (edt5.Text ='')or(edt6.Text= '') or (edt7.Text= '') then
+ if (edt1.Text= '')or (edt2.Text ='')or(edt3.Text= '')or(edt4.Text= '')or (edt5.Text ='')or(edt6.Text= '') or (edt7.Text= '') then
 begin
   ShowMessage('INPUTAN WAJIB DIISI!');
 end else
-if edt1.Text = zqry.Fields[1].AsString then
+if (edt1.Text = zqry.Fields[1].AsString) and (edt2.Text = zqry.Fields[2].AsString) and (edt3.Text = zqry.Fields[3].AsString) and (edt4.Text = zqry.Fields[4].AsString) and (edt5.Text = zqry.Fields[5].AsString) and (edt6.Text = zqry.Fields[6].AsString) and (edt7.Text = zqry.Fields[7].AsString) then
 begin
  ShowMessage('DATA TIDAK ADA PERUBAHAN');
  posisiawal;

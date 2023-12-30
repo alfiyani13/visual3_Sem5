@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 15
-  Top = 16
+  Left = 260
+  Top = 205
   Width = 870
   Height = 450
   Caption = 'Form3'
@@ -622,7 +622,6 @@ object Form3: TForm3
   end
   object zqry: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'select * from tb_struk')
     Params = <>
